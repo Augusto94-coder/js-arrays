@@ -28,6 +28,8 @@ console.log("Primo insegnante rimosso:", firstTeacher);
 console.log("Array dopo la rimozione del primo insegnante:", teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");
+console.log("Array dopo aver inserito Vanessa:", teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
