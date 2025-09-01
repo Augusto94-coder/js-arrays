@@ -18,7 +18,9 @@ teachers[4]= "Patrick";
 console.log("Mostra array dopo sostituzione:", teachers)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = teachers.pop();
+console.log("Ultimo insegnante rimosso:", lastTeacher)
+console.log("Array dopo la rimozione dell'ultimo insegnante:", teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
