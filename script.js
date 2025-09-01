@@ -23,7 +23,9 @@ console.log("Ultimo insegnante rimosso:", lastTeacher)
 console.log("Array dopo la rimozione dell'ultimo insegnante:", teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+const firstTeacher = teachers.shift();
+console.log("Primo insegnante rimosso:", firstTeacher);
+console.log("Array dopo la rimozione del primo insegnante:", teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
